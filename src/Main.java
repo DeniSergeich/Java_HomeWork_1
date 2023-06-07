@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Длина массива m2 = " + count);
         int[] array = new int[count];
         for (int j = Short.MIN_VALUE, k = 0; j < i & k < array.length; j++) {
-            if(j % n == 0) {
+            if(j % n != 0) {
                 array[k] = j;
                 k++;
             }
